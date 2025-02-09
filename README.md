@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Random generated images links:
+
+```
+<img src="https://via.placeholder.com/400x200" alt="Placeholder Image" />
+<img src="https://picsum.photos/400/200" alt="Random Image" />
+<img src="https://source.unsplash.com/random/800x400" alt="Unsplash Random Image" />
+<img src="https://dummyimage.com/600x400/000/fff" alt="Dummy Image" />
+<img src="https://loremflickr.com/640/480" alt="Lorem Flickr Image" />
+```
