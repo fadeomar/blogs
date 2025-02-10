@@ -97,7 +97,7 @@ export default function UserForm({
         </select>
       </div>
       <label className="block text-sm font-medium text-gray-700 mb-1">
-        Profile Image URL
+        Profile Image URL, ex: https://loremflickr.com/640/480
       </label>
       <input
         type="text"
