@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Provider from "@/providers/AuthProvider";
+import QueryProvider from "@/providers/QueryProvider";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +23,13 @@ export default function RootLayout({
     <html lang="en">
       {/* <body className={inter.className}> */}
       <body>
-        <Provider>
-          <Header />
-          {children}
-          <Toaster position="top-center" />
-        </Provider>
+        <QueryProvider>
+          <Provider>
+            <Header />
+            {children}
+            <Toaster position="top-center" />
+          </Provider>
+        </QueryProvider>
       </body>
     </html>
   );
