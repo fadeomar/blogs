@@ -25,6 +25,7 @@ const FormComment: FC<FormCommentProps> = ({ postId }) => {
           text: comment,
         });
         if (newComment.status === 200) {
+          setComment("");
           router.refresh();
         }
       } catch (error) {
